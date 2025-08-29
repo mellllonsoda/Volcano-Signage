@@ -40,7 +40,7 @@
 
 ```bash
 # 仮想環境作成（任意）
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 
@@ -55,7 +55,7 @@ pip install gunicorn   # 本番用サーバー
 ## 使い方（開発用）
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 * ブラウザで [http://localhost:5000](http://localhost:5000) にアクセス
